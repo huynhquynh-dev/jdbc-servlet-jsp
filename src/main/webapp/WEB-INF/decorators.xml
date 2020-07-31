@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Khai báo thư mục chứa các file decorators từ sitemesh -->
+<decorators defaultdir="/decorators">
+	
+	<!-- Loại bỏ khỏi sitemesh có tiền tố sau -->
+	<excludes>
+		<pattern>/api*</pattern>
+	</excludes>
+
+	<!-- Thông qua  -->
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin*</pattern>
+	</decorator>
+
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+	<decorator name="login" page="login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+</decorators>

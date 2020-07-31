@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JspServletJdbc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JspServletJdbc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JspServletJdbc-1.0.war">
+      <element id="artifact" artifact-name="JspServletJdbc:war exploded" />
+    </root>
+  </artifact>
+</component>
